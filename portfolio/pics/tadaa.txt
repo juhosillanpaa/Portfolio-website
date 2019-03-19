@@ -1,0 +1,21 @@
+<div class="modal-header">
+              <h1 id="modalHeader">
+                My first website
+                    
+              </h1>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              I started learning web development in January 2019. Immediatetly I got totally carried away
+              and I wanted to learn more. This website does not have any cool features as it's made with only 
+              HTTP and CSS, without any extrenal libaries/bootsrtap etc. Still I think the result was pretty nice,
+              it' mobile first, is responsive and the visual appearance of the first page is stunning.
+              <br>
+              The code itself will certainly have a lot of weird and useless stuff, as one might assume as it was
+              my first website. 
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Close</button>
+            </div>

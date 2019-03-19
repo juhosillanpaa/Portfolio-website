@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+     <!--Fontawesome icons-->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+     
+    <!--my own CSS-->
+    <link rel="stylesheet" type="text/css" href="../css/projectinfo.css" />
+    <title>Juho Sillanpää</title>
+  </head>
+
+  <!----------------------------------------------BODY----------------------------------------------->
+  <body>
+    <div class="moovingtext">
+      <h1 class="ml1">
+        <span class="text-wrapper">
+          <span class="line line1"></span>
+          <span class="letters">Juho</span>
+          <br />
+          <span class="letters">Sillanpää</span>
+          <span class="line line2"></span>
+        </span>
+      </h1>
+    </div>
+
+    <!------------------------NAVBAR--------------------------------------->
+    <nav class="navbar navbar-expand-sm">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Home</a>
+        </li>
+        <li class="nav-item dropdown active">
+                <a class = "nav-link dropdown-toggle" href = "#" id = navbarDropdown" role = "button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Projects
+                </a>
+                <div class = "dropdown-menu" aria-labelledby = " navbarDropdown">
+                  <a class="dropdown-item" href="greenworld.html">First website</a>
+                  <a class="dropdown-item" href="python.html">Tower Defence</a>
+                  <a class = "dropdown-item" href = "weather.html">Weather service</a>
+                  <a class = "dropdown-item" href = "portfolio_project.html">This website</a>
+                </div>
+              </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about_me.html">About me</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="CV.html">CV</a>
+          </li>
+      </ul>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-sm-9">
+          <div class="overview">
+            <h2>
+              My first website
+            </h2>
+            <br />
+            <p>
+              This is the first thing I ever coded in using javascript and it was ready on 11.3. This was an assignment from course "Basics of web development". Again this is more about practising and exploring javascript so I didn't spend
+              any extra time to make it responsive/graphically super beutiful. In process I got familiar with using API's, JSON, jQuery and Javascript.
+              I used OpenWeatherMap's API, JSON file of largest cities in world and jQuery AutoComplete plugin to make it easy to check weather almost everywhere in world.
+
+            </p>
+          </div>
+          <!--OVERVIEW-->
+          <div class="row justify-content-around">
+            <div class="col-sm-5">
+              <div class="textfield">
+                <h5>
+                  Goal
+                </h5>
+                <br />
+                <p>
+                    Creating a media element with chancing content and practice using javascript and open API in the process.
+                    As result one needed to have a a weather information service with option to choose the location and 
+                    a chance to enable automatic update for the information.
+                 
+                </p>
+              </div>
+            </div>
+            <!--COL SM 4-->
+            <div class="col-sm-5">
+              <div class="textfield">
+                <h5>
+                  In a nutshell
+                </h5>
+                <br />
+                <ul>
+                  <li><p>February 2019</p></li>
+                  <li><p>Practicing Javascript</p></li>
+                  <li><p>OpenWeatherMap API</p></li>
+                  <li><p>Jquery autocomplete plugin</p></li>
+                  <li><p>JSON file of largest cities in world</p></li>
+                </ul>
+              </div>
+            </div>
+            <!--COL SM 5-->
+          </div>
+          <!--ROW-->
+          <div class="row justify-content-around">
+            <div class="col-sm-11">
+              <div class="textfield">
+                <h5>
+                  Result
+                </h5>
+                <br />
+                <p>
+                Website where you can check current weather and the result is displayed by icon based on weather description and some
+                numeric values ( temperature, wind, humidity). Weather statistics are from OpenWeatherMap's API. The icons are from Erikflowers Weather Icon Github repository, because 
+                OpenWeatherMap's icons had too bad quality. As bonus I used Jquery autocomplete- plugin and JSON file containing over 80 000 largest cities in different countrys. When user begins to 
+                write a country the website fill provide autocomplete option for that as well as for main cities in selected country. After selecting
+                the autoc
+                </p>
+              </div>
+            </div>
+            <!--COL SM 5-->
+          </div>
+          <!--ROW-->
+
+          <div class="imagedisplay">
+            <img class = "img-fluid" src = ../pics/weather_typing.png>
+            
+            <img class = "img-fluid" id = "secondpic" src = "../pics/weather_result.png">
+          </div>
+        </div>
+        <!--COL SM 8-->
+      </div>
+    </div>
+    
+<!------------FOOTER--------------------------------------->
+<footer class="page-footer font-small mdb-color pt-4">
+       
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+
+      <!-- Footer links -->
+      <div class="row text-center text-md-left mt-3 pb-3">
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold">SHORTLY</h6>
+          <p>I'm experienced with Web development, Python and C++ and I have some knowledge about data science.
+            I'm looking for a job where I can meet new people, challenge myself and learn as much as possible as fast as possible.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <hr class="w-100 clearfix d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold">Projects</h6>
+          <p><a href="greenworld.html">First website</a>
+          </p>
+
+          <p><a href="python.html">Tower Defence</a>
+          </p>
+
+          <p><a href="weather.html">Weather service</a>
+          </p>
+
+          <p><a href = "portfolio_project.html">This website</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <hr class="w-100 clearfix d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold">Resume</h6>
+          <p>
+            <a href="about_me.html"> About me</a>
+          </p>
+          <p>
+            <a href="CV.html">My CV</a>
+          </p>
+        </div>
+
+        <!-- Grid column -->
+        <hr class="w-100 clearfix d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+          <p>
+            <i class="fas fa-home mr-3"></i> Espoo,</p>
+          <p>
+            <i class="fas fa-envelope mr-3"></i> juho.sillanpaa@aalto.fi</p>
+          <p>
+            <i class="fas fa-phone mr-3"></i> 044 978 9096</p>
+         
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Footer links -->
+
+      <hr>
+
+      <!-- Grid row -->
+      <div class="row d-flex align-items-center">
+
+        <!-- Grid column -->
+        <div class="col-md-7 col-lg-8">
+
+          <!--Copyright-->
+          <p class="text-center text-md-left">© 2018 Copyright: Juho Sillanpää, No rights reserved.
+          </p>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-5 col-lg-4 ml-lg-0">
+
+          <!-- Social buttons -->
+          <div class="text-center text-md-right">
+            <ul class="list-unstyled list-inline">
+                <li class="list-inline-item">
+                    <a class="btn-floating btn-sm rgba-white-slight mx-1" href = "https://github.com/juhosillanpaa">
+                      <i class="fab fa-github"></i>
+                    </a>
+                  </li>
+              <li class="list-inline-item">
+                <a class="btn-floating btn-sm rgba-white-slight mx-1" href = "https://www.facebook.com/siramixaz">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-floating btn-sm rgba-white-slight mx-1" href = "https://www.linkedin.com/in/juho-sillanpää-1a92a3140">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                  <a class="btn-floating btn-sm rgba-white-slight mx-1" href = "https://www.instagram.com/juho_sillanpaa/">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+              
+            </ul>
+          </div>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+  </footer>
+  <!-- Footer -->
+
+    <!-------------------------------------------SCRIPTS--------------------------------------------->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- script for Animated Text-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <!-- My own script-->
+    <script src="../javascript/projectinfo.js" type="text/javascript"></script>
+  </body>
+</html>

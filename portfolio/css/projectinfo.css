@@ -1,0 +1,137 @@
+
+/*----------------------NAVBAR------------------------*/
+.navbar {
+    background: transparent;
+    margin-right: 50px;
+    margin-top: 15px;
+    
+  }
+  .nav-item {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  
+  .nav-link {
+    color:black;
+  }
+  .nav-link:hover{
+      color:grey;
+  }
+
+/*------------------FOOTER-------------------*/
+.page-footer{
+  margin-top:100px;
+  background-color:rgba(230,230,230,1);
+}
+.page-footer a{
+  color:black;
+}
+
+/*-----------------------------CONTAINER----------------------*/
+.container-fluid{
+    max-width: 1500px;
+
+}
+/*----------------------------OVERVIEW---------------------*/
+
+.overview{
+    margin-top:20vh;
+}
+.overview h2{
+    font-weight: 400;
+    color: rgba(50,50,50,1);
+}
+.overview p {
+    font-size: 1.2em;
+}
+/*----------------------TEXT-----------------------------*/
+.textfield {
+    margin-top:50px;
+}
+.textfield h5{
+    margin-left:40px;  
+}
+.textfield a{
+  color:rgba(50,50,50,1);
+  font-weight: 500;
+}
+#resultheader{
+    margin-left:0px;
+}
+.imagedisplay{
+    background-color: rgba(230,230,230,1);
+    width:100%;
+    height: auto;
+    padding: 0 80px 60px 80px;
+    margin-top:100px;
+}
+.imagedisplay img {
+    margin-top:60px;
+    width:100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#CV {
+  border: solid 1px white;
+}
+
+.moovingtext {
+    color: black;
+    position:absolute;
+    top:10%;
+    left:15%;
+    transform: translate(-90%, -85%);
+    text-align: center;
+  }
+/*-------------------------CV page button display-----------------------*/
+.buttonDisplay{
+  margin-top:20vh;
+
+  
+}
+.buttonDisplay form, .buttonDisplay a{
+  margin-left:20px;
+  margin-right:20px;
+}
+.btn{
+  border-radius:0px;
+  padding:16px 32px;
+}
+
+
+
+/*----------------------------------Animated text-------------------*/
+.ml1 {
+    font-weight: 200;
+    font-size: 1.5em;
+  }
+  
+  .ml1 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+  
+  .ml1 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+  }
+  
+  .ml1 .line {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    height:1px;
+    width: 100%;
+    background-color:black;
+    transform-origin: 0 0;
+  }
+  
+  .ml1 .line1 {
+    top: 0;
+  }
+  .ml1 .line2 {
+    bottom: -2px;
+  }
+  
